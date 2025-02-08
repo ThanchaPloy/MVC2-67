@@ -29,11 +29,11 @@ public class Controller {
             //showDriverView();
         }else if(!driver.isValidId()){
             view.updateResult("License ID is invalid or Error");
-            view.frame.dispose();
+            //view.frame.dispose();
             //showDriverView();
         }else {
             view.updateResult("Found: " + driver.getLicenseId() + ", Type: " + driver.getLicenseType());
-            view.frame.dispose();
+            //view.frame.dispose();
             //showDriverView();
         }
 
